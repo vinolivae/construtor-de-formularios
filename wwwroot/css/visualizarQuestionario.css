@@ -1,0 +1,26 @@
+.responder-btn{
+    cursor: pointer;
+    background: white;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.39);
+}
+.questionario-elements{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.questionario-titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resposta{
+    resize: none;
+}
+.pergunta{
+    background-color: rgb(233, 227, 227);
+    margin: 5px;
+    padding-left: 10px;
+}

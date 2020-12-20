@@ -1,0 +1,29 @@
+https://localhost:5001
+
+###
+GET https://localhost:5001/pergunta
+###
+GET https://localhost:5001/pergunta/questionario/1
+
+###
+POST https://localhost:5001/pergunta HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "Come casadas?",
+    "questionarioId": 1
+}
+
+###
+Put https://localhost:5001/pergunta/1 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "titulo": "Carros",
+    "usuario": "vinicius"
+
+}
+
+### 
+DELETE  https://localhost:5001/pergunta/1

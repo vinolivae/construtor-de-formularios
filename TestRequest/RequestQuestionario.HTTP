@@ -1,0 +1,29 @@
+https://localhost:5001
+
+###
+GET https://localhost:5001/questionario
+###
+GET https://localhost:5001/
+
+###
+POST https://localhost:5001/questionario HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "Comidas",
+    "usuario" : "Vinicius"
+}
+
+###
+Put https://localhost:5001/questionario/1 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "titulo": "Carros",
+    "usuario": "vinicius"
+
+}
+
+### 
+DELETE  https://localhost:5001/questionario/1

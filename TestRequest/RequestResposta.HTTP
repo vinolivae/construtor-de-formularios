@@ -1,0 +1,30 @@
+https://localhost:5001
+
+###
+GET https://localhost:5001/resposta
+###
+GET https://localhost:5001/resposta/pergunta/1
+
+###
+POST https://localhost:5001/resposta HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "sim",
+    "usuario" : "Vinicius",
+    "perguntaId": 1
+}
+
+###
+Put https://localhost:5001/resposta/1 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "titulo": "Carros",
+    "usuario": "vinicius"
+
+}
+
+### 
+DELETE  https://localhost:5001/resposta/1

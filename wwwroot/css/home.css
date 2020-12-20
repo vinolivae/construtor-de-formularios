@@ -1,0 +1,30 @@
+.home h1{
+    margin-left: 50px;
+}
+.questionarios{
+    display: grid;    
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 90px));
+    margin: 30px 50px;
+    background-color: rgb(233, 227, 227);
+    border: 1px solid rgb(167, 121, 129);
+}
+.questionario{
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+.novo-questionario{
+    display: flex;
+    margin-left: 50px;
+}
+.novo-questionario input{
+    margin-right: 5px;
+    width: 215px;
+}
+.questionario-link{
+    cursor: pointer;
+}
